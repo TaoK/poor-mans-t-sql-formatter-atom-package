@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle poor-mans-t-sql-formatter-atom-package",
+        "command": "poor-mans-t-sql-formatter-atom-package:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "poor-mans-t-sql-formatter-atom-package",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "poor-mans-t-sql-formatter-atom-package:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
