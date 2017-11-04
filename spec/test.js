@@ -32,6 +32,7 @@ describe('PoorMansTSqlFormatterAtomPackage', () => {
       //TODO: Check selection edit and doc edit
       //TODO: Check filename check
       //TODO: Check error check
+      //TODO: check line endings are respected
 
       runs(() => {
         //do something?
