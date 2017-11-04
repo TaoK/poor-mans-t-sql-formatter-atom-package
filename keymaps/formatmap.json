@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-k shift-f": "poor-mans-t-sql-formatter:format"
+  }
+}

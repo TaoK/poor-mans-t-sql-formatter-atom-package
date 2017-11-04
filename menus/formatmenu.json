@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Format SQL",
+        "command": "poor-mans-t-sql-formatter:format"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Poor Man's T-SQL Formatter",
+          "submenu": [
+            {
+              "label": "Format",
+              "command": "poor-mans-t-sql-formatter:format"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

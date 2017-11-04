@@ -1,16 +1,41 @@
 {
-  "name": "poor-mans-t-sql-formatter-atom-package",
-  "main": "./lib/poor-mans-t-sql-formatter-atom-package",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "poor-mans-t-sql-formatter-atom-package:toggle"
+  "name": "poor-mans-t-sql-formatter",
+  "main": "./lib/main.js",
+  "version": "1.6.6",
+  "description": "A T-SQL formatting plugin for the Atom editor.",
+  "keywords": [
+    "sql",
+    "formatter",
+    "sql formatter",
+    "tsql",
+    "formatting",
+    "minimizer",
+    "obfuscator",
+    "pretty-printer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TaoK/poor-mans-t-sql-formatter-atom-package"
   },
-  "repository": "https://github.com/atom/poor-mans-t-sql-formatter-atom-package",
-  "license": "MIT",
+  "license": "AGPL-3.0",
+  "readmeFilename": "README.md",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/TaoK/poor-mans-t-sql-formatter-atom-package/issues"
+  },
+  "configSchema": {
+    "test1": {
+      "default": true,
+      "type": "boolean",
+      "description": "Force ctags to use the name of the current file's language in Atom when generating tags. By default, ctags automatically selects the language of a source file, ignoring those files whose language cannot be determined. This option forces the specified language to be used instead of automatically selecting the language based upon its extension."
+    },
+    "test3": {
+      "default": true,
+      "type": "boolean",
+      "description": "Automatically visit selected file-symbols"
+    }
   },
   "dependencies": {
     "poor-mans-t-sql-formatter": "1.6.5"
