@@ -25,17 +25,8 @@
   "bugs": {
     "url": "https://github.com/TaoK/poor-mans-t-sql-formatter-atom-package/issues"
   },
-  "configSchema": {
-    "test1": {
-      "default": true,
-      "type": "boolean",
-      "description": "Force ctags to use the name of the current file's language in Atom when generating tags. By default, ctags automatically selects the language of a source file, ignoring those files whose language cannot be determined. This option forces the specified language to be used instead of automatically selecting the language based upon its extension."
-    },
-    "test3": {
-      "default": true,
-      "type": "boolean",
-      "description": "Automatically visit selected file-symbols"
-    }
+  "activationCommands": {
+    "atom-workspace": "poor-mans-t-sql-formatter:format"
   },
   "dependencies": {
     "poor-mans-t-sql-formatter": "1.6.5"
