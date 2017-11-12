@@ -1,6 +1,6 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "atom-text-editor[data-grammar='source sql']": [
       {
         "label": "Format SQL",
         "command": "poor-mans-t-sql-formatter:format"

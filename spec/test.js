@@ -1,5 +1,14 @@
 'use babel';
 
+//TODO: Check file encodings work
+//TODO: Check options (superficially tested)
+//TODO: Check selection edit and doc edit (manually tested)
+//TODO: Check error check (manually tested)
+//TODO: check line endings are respected (manually tested)
+//TODO: check scopes are respected (manually tested)
+//TODO: ensure format sql context menu option only appears in the right scope (manually tested)
+
+
 import PoorMansTSqlFormatterAtomPackage from '../lib/main';
 
 // Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
@@ -26,13 +35,6 @@ describe('PoorMansTSqlFormatterAtomPackage', () => {
       waitsForPromise(() => {
         return activationPromise;
       });
-
-      //TODO: Check file encodings work
-      //TODO: Check options
-      //TODO: Check selection edit and doc edit
-      //TODO: Check filename check
-      //TODO: Check error check
-      //TODO: check line endings are respected
 
       runs(() => {
         //do something?
