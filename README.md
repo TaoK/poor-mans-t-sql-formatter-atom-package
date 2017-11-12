@@ -9,6 +9,7 @@ The formatter provides all the same fancy stuff as in its other incarnations (SS
    * multi-statement batches
    * complex statement types (eg INSERT statement with CTE and OUTPUT clause)
    * accurate support for all SQL-server-supported datatypes
+* minimization and "don't touch this" support for parts of the file
 * support for other SQL dialects where possible (work in progress)
 
 ## Installation
@@ -19,10 +20,17 @@ Install from within Atom ("poor-mans-t-sql-formatter"), or on the command-line, 
 apm install poor-mans-t-sql-formatter
 ```
 
+## Usage
+
+Select "Format SQL" to format the highlighted text or, if none selected, the whole active text document.
+
+Default keyboard shortcut is "Ctrl-K, Shift-F", but this can be disabled and/or customized.
+
+Options can all be set in the standard Atom option-management UI.
+
 ## Status
 
-The only notable limitations of this package for the moment are:
+The only notable known limitations of this package for the moment is:
 
 * It's quite slow; formatting a large file can take a couple seconds.
-* It **always outputs unix-style line endings** - it needs work to better account for the document's own line ending standard.
 
