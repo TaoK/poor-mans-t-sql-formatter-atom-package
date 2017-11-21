@@ -1,7 +1,7 @@
 {
   "name": "poor-mans-t-sql-formatter",
   "main": "./lib/main.js",
-  "version": "1.6.8",
+  "version": "1.6.9",
   "description": "A T-SQL formatting plugin for the Atom editor.",
   "keywords": [
     "sql",
@@ -29,6 +29,6 @@
     "atom-workspace": "poor-mans-t-sql-formatter:format"
   },
   "dependencies": {
-    "poor-mans-t-sql-formatter": "1.6.5"
+    "poor-mans-t-sql-formatter": "1.6.10"
   }
 }
